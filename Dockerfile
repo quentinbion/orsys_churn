@@ -26,5 +26,5 @@ RUN python train_log_reg.py
 ENV PYTHONPATH=/app
 
 # Commande pour démarrer l'application Flask
-CMD ["python", "app.py"]
+CMD ["python", "flask_app.py"]
 

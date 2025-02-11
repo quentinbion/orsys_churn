@@ -26,4 +26,5 @@ model.fit(X_train, y_train)
 joblib.dump(model, 'logistic_regression_model.pkl')
 
 #modif
+#modig
 

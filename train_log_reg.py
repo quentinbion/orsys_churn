@@ -27,4 +27,4 @@ joblib.dump(model, 'logistic_regression_model.pkl')
 
 #modif
 #modig
-
+#modik

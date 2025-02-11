@@ -3,9 +3,9 @@ name: CI/CD for Churn Prediction
 on:
   push:
     branches:
-      - master
+      - main
     paths:
-      - train_log_reg.py
+      - train.py
 
 jobs:
   deploy:
@@ -37,6 +37,10 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t churn-app .
+
+    - name: Validate the model in Docker
+      run: |
+        docker run churn-app python validate.py
       
     - name: Run Tests in Docker
       run: |

@@ -21,7 +21,7 @@ COPY tests tests
 EXPOSE 5012
 
 # Exécuter le script pour entraîner le modèle et générer churn_model_clean.pkl
-RUN python train.py
+RUN python train_log_reg.py
 
 ENV PYTHONPATH=/app
 

@@ -1,6 +1,6 @@
 name: CI/CD for Churn Prediction
 
-on: workflow_dispatch
+on:
   push:
     branches:
       - master

@@ -48,4 +48,4 @@ jobs:
 
     - name: Deploy to Elastic Beanstalk
       run: |
-        eb deploy churn-env
+        eb deploy Churnquen-env

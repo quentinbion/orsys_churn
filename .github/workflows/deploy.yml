@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - train_reg_log.py
+      - train_log_reg.py
 
 jobs:
   deploy:

@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copier les fichiers nécessaires dans l'image Docker
 COPY train_log_reg.py train_log_reg.py
 COPY test.py test.py
-COPY flak_app.py flask_app.py
+COPY flask_app.py flask_app.py
 COPY data data
 COPY tests tests
 
